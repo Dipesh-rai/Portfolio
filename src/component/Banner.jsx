@@ -1,7 +1,7 @@
 import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
-import image from './../../public/dipesh.png'; 
+import image from './../assets/dipesh.png'; 
 import "./../sass/component/home.scss"
 
 function Banner() {

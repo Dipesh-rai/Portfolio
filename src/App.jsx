@@ -1,6 +1,6 @@
 import React from 'react'
-import Header from './component/header'
-import Banner from './component/banner'
+import Header from './component/Header'
+import Banner from './component/Banner'
 import "./sass/component/home.scss"
 import About from './component/pages/About'
 import Resume from './component/pages/Resume'

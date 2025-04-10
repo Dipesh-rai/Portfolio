@@ -29,7 +29,7 @@ function Header() {
     <header>
       <aside className={`aside ${menuOpen ? 'open' : ''}`}>
         <div className="portfolio py-[40px] flex justify-center text-indigo-700 font-bold text-xl">
-         Portfolio
+        Dipesh Rai
         </div>
 
         <nav className="my-8 desktop-nav hidden md:block">
@@ -37,9 +37,9 @@ function Header() {
         </nav>
 
         <div className="media flex justify-center gap-5 border mt-5 p-1">
-          <i className="bi bi-facebook"></i>
-          <i className="bi bi-linkedin"></i>
-          <i className="bi bi-github"></i>
+       <a href="https://web.facebook.com/profile.php?id=61571495885324">   <i className="bi bi-facebook"></i></a>
+        <a href="https://www.linkedin.com/in/dipesh-rai-1a50692a6/"><i className="bi bi-linkedin"></i></a>
+         <a href="https://github.com/Dipesh-rai"> <i className="bi bi-github"></i></a>
         </div>
 
         <div className="menuu block md:hidden cursor-pointer text-center mt-4" onClick={toggleMenu}>

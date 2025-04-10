@@ -1,13 +1,14 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { Flex, Progress } from 'antd';
 import './../../sass/component/about.scss';
 
 function About() {
   return (
     <section id="about" className="about-container">
-      <motion.h2 
-        initial={{ opacity: 0, y: -30 }} 
-        animate={{ opacity: 1, y: 0 }} 
+      <motion.h2
+        initial={{ opacity: 0, y: -30 }}
+        animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
       >
         About Me
@@ -21,7 +22,7 @@ function About() {
         I'm Dipesh Rai, a front-end developer passionate about crafting clean, elegant, and user-friendly interfaces. I specialize in React, Tailwind, SCSS, and modern web tools.
       </motion.p>
 
-      <motion.div 
+      <motion.div
         className="skills"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -37,6 +38,19 @@ function About() {
           <li>Bootstrap</li>
         </ul>
       </motion.div>
+      <div className="skill ">
+        <h2>Skills</h2>
+        <div className="skill-block">
+        <span>HTML</span>
+        <Progress percent={90}  trailColor="#ffff" className="custom-progress"/>
+        <span>CSS</span>
+          <Progress percent={70} trailColor="#ffff" className="custom-progress" />
+          <span>JavaScript</span>
+        <Progress percent={60} trailColor="#ffff" className="custom-progress"/>
+        <span>React</span>
+        <Progress percent={50} trailColor="#ffff" className="custom-progress"/>
+        </div>
+      </div>
     </section>
   );
 }

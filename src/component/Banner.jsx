@@ -43,10 +43,10 @@ function Banner() {
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 0.6 }}
         >
-          View My Work
+         <a href={`#contact`}> Let's Talk </a>
         </motion.button>
       </div>
-          
+ 
       <div className="image-container">
         <motion.img
           src={image}

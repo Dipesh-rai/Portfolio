@@ -37,7 +37,7 @@ const Contact = () => {
         <span className="text-red-500 text-xs mb-{5px} p-2">{errors?.name?.message}</span>
         <input type="text" {...register('number')} placeholder="Your Phonenumber" />
         <span className='text-red-500 text-xs mb-{5px} p-2'>{errors?.number?.message}</span>
-        <input type="email"  {...register('email')} aceholder="Your Email" />
+        <input type="email"  {...register('email')} placeholder="Your Email" />
         <span className='text-red-500 text-xs mb-{5px} p-2'>{errors?.email?.message}</span>
         <textarea placeholder="Your Message" rows="6"/>
         <button type="submit">Send Message</button>

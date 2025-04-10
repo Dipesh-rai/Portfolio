@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Navbar from './navbar';
+import Navbar from './Navbar';
 import './../sass/component/header.scss';
 
 function Header() {

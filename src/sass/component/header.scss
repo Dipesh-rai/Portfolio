@@ -1,0 +1,131 @@
+header {
+  .aside {
+    background-color: var(--header-color);
+    color: var(--nav-color);
+    width: 22%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .portfolio {
+      font-size: 1.5rem;
+      font-weight: 600;
+      font-family: var(--primary-font);
+      text-align: center;
+      padding: 40px 0;
+      background-color: var(--accent-color);
+      color: white;
+    }
+
+    .desktop-nav {
+      ul {
+        display: flex;
+        flex-direction: column;
+
+        li {
+          padding: 16px 24px;
+          list-style-position: inside;
+          list-style-type: circle;
+          font-family: var(--primary-font);
+          font-size: var(--font-xl);
+          color: var(--text-color);
+          transition: all 0.3s ease;
+
+          &.active {
+            list-style-type: disc;
+            color: var(--accent-color);
+          }
+
+          a {
+            text-decoration: none;
+            color: inherit;
+
+            &:hover {
+              color: var(--accent-color);
+             
+            }
+            &.active{
+              color:var(--accent-color);
+            }
+          }
+        }
+      }
+    }
+
+    .media {
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      padding: 16px;
+      font-size: 1.2rem;
+      background-color:var(--accent-color) ;
+      i {
+        color: var(--nav-color);
+
+        &:hover {
+          opacity:0.5;
+        }
+      }
+    }
+
+    .menuu {
+      display: none;
+      justify-content: center;
+      font-size: 2rem;
+      padding: 16px;
+      cursor: pointer;
+      background-color: var(--accent-color);
+      color: white;
+    }
+
+    .nav-items {
+      display: none;
+
+      ul {
+        background-color: var(--accent-color);
+
+        li {
+          padding: 16px;
+          list-style-type: circle;
+
+          &.active {
+            list-style-type: disc;
+            color:var(--accent-color);
+          }
+        }
+      }
+    }
+
+    @media (max-width: 768px) {
+      width: 100%;
+      height: auto;
+      flex-direction: column;
+      align-items: stretch;
+
+      .portfolio,
+      .media,
+      .desktop-nav {
+        display: none;
+      }
+
+      .menuu {
+        display: flex;
+      }
+
+      .nav-items {
+        display: block;
+        width: 100%;
+        position: absolute;
+        top: 100%;
+        z-index: 1000;
+        background-color: var(--accent-color);
+        border-top: 1px solid #ccc;
+      }
+    }
+  }
+}

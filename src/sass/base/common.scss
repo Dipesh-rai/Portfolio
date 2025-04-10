@@ -1,0 +1,26 @@
+*{
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+}
+body{
+   font-size: 16px;
+   font-weight:400;
+   font-family:var(--secondary-font);
+}
+.show{
+   display:block;
+}
+.hide{
+   display:none;
+}
+section {
+   padding: 10px;
+   border: 1px solid #2c2c2c;
+   margin-bottom: 20px;
+   background-color: var(--background-color);
+   &:last-child {
+      margin-bottom: 0;
+    }
+ }
+ 

@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins:wght@400;500;600&display=swap');
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+:root {
+  // Fonts
+  --primary-font: "Poppins", sans-serif;
+  --secondary-font: "DM Sans", sans-serif;
+
+  // Font Sizes
+  --font-sm: 0.75rem;
+  --font-md: 0.875rem;
+  --font-lg: 1rem;
+  --font-xl: 1.25rem;
+
+  // colors
+  --bg-color: #111827;
+  --header-color: #0a0a0a; // Absolute black
+  --nav-color: #121212; // Dark charcoal
+  --accent-color: #3B84D9; // Gold (because Sigma doesn’t settle for silver)
+  --text-color: #e0e0e0; // High-contrast soft white
+  --subtle-text: #777777; // Steel gray for muted text
+  --background-color: #0d0d0d; // Sleek jet black
+  --highlight-color: #00FFFF; // Cyber cyan for call-to-actions
+}

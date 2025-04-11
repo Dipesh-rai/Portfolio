@@ -19,8 +19,10 @@ const Resume = () => {
 
       <div className="resume-block">
         <h2 className="block-title">Education</h2>
-        <div className="item">
-          <h3>Professional Web Design Training</h3>
+          <div className="item">
+            <h3>The Insight Vision Secondary School</h3>
+            <p>+2 passed in computer management course.</p>
+          <h3 className="web">Professional Web Design Training</h3>
           <span className="duration">IT Training Nepal | 2024</span>
           <p>
             Learned HTML, CSS, SCSS, Tailwind, JavaScript, React, Responsive
@@ -43,7 +45,7 @@ const Resume = () => {
         <p>
           <strong>Languages & Markup:</strong> HTML5, CSS3, JavaScript (ES6+), SCSS<br/>
           <strong>Frameworks & Libraries:</strong> React.js, Tailwind CSS, Framer Motion<br/>
-          <strong>Tools & Platforms:</strong> Git, GitHub, VS Code, Figma, Netlify<br/>
+          <strong>Tools & Platforms:</strong> Git, GitHub, VS Code, Figma<br/>
           <strong>Design Focus:</strong> Responsive Design, UI/UX principles, accessibility
         </p>
       </div>

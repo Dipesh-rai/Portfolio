@@ -36,12 +36,15 @@ function About() {
           <li>React</li>
           <li>Tailwind CSS</li>
           <li>Bootstrap</li>
+          <li>Ant Design</li>
         </ul>
       </motion.div>
       <div className="skill ">
         <h2>Skills</h2>
         <div className="skill-block">
-        <span>HTML</span>
+        <span>Figma</span>
+        <Progress percent={70}  trailColor="#ffff" className="custom-progress"/>
+          <span>HTML</span>
         <Progress percent={90}  trailColor="#ffff" className="custom-progress"/>
         <span>CSS</span>
           <Progress percent={70} trailColor="#ffff" className="custom-progress" />

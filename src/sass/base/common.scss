@@ -23,4 +23,12 @@ section {
       margin-bottom: 0;
     }
  }
+ .last-media{
+   margin-block:20px;
+   a{
+      &:hover{
+         opacity:0.5;
+      }
+   }
+ }
  

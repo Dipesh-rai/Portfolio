@@ -56,7 +56,7 @@ const Resume = () => {
           <h3>Personal Portfolio Website</h3>
           <p>
             Designed and built a fully responsive personal portfolio using React,
-            SCSS, and Framer Motion. Implemented dark/light mode, interactive
+            SCSS, and Framer Motion. Implemented interactive
             navigation, animations, and mobile responsiveness.
           </p>
         </div>
@@ -64,8 +64,7 @@ const Resume = () => {
           <h3>Interactive Landing Page</h3>
           <p>
             Developed an animated landing page with smooth transitions,
-            responsive layout, and reusable components using Tailwind and React
-            hooks.
+            responsive layout, and reusable components using SCSS.
           </p>
         </div>
       </div>

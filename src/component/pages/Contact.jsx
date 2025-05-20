@@ -84,7 +84,6 @@ const Contact = () => {
           placeholder="Your Message"
           name="message"
           rows="6"
-          required
         />
 
         <button type="submit">Send Message</button>
